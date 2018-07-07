@@ -1,0 +1,6 @@
+Author: Kavinsan Thavanesan
+
+I made this script to see if I was able to redirect the responses from cleverbot to my discord bot to give it some kind of "mind". This script pulls the responses, can be modified to redirect to a discord bot or for whatever you might want to use it for.
+
+Note: You need selenium.py and the chrome driver (headless browser).
+	Expect a delay when the script first runs because the browser needs to load the pgae. There is also an intentional 4s delay after each message sent so that the script has enough time to scrape the updated response from cleverbot. If you feel like the response is incomplete/cut off type "what" and the script will reiterate the message.
